@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--nuestro idioma, español-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--la interfaz de html tiene que ser compatible con internet explorer-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--el contenido tanto de ancho tiene que ajustarse con el ancho de elos dispositivos-->
+    <title>Clase 1 prueba </title>
+</head>
+<body>
+    Test cuerpo 
+    <p> <!--Etiqueta P, etiqueta de parrafo-->
+        <h1> <!-- H es por header y el numero es el tamaño, 6 equivale al mas chico y el 1 el mas grande-->
+        Probando parrafo
+        </h1>
+    </p>
+    <p>
+             Porbando listas
+        <ul>  <!--Lista desordenada (Unordered list)-->
+            <li>Dias</li>
+            <li>Semanas</li> <!--LI = List item-->
+        </ul>
+    </p>
+    <p>
+        <ol>     <!--Lista ordenada (Ordered List)-->
+            <li>Messi</li>
+            <li>Cristiano</li>
+        </ol>
+    </p>
+    <a href="https://www.youtube.com/watch?v=xzHJ2aZR6e4&ab_channel=JoynerLucas">Ir a youtube</a>
+    <!--el <a href me permite  crear mensajes que redirigen a sitios web
+     por ejemplo ese href llamado "Ir a youtube" como dice su nombre me envia a youtube-->
+     <img src="images/Html.png" alt="Html"> <!--src es la ubicacion de la imagen/ carpeta images-->
+     <!-- El atributo ALT es un texto alternativo en el caso en el que la imagen no pueda cargar-->
+     <img src="https://cdn.icon-icons.com/icons2/112/PNG/512/html5_18891.png" alt="Remoto">
+     <!--De esta manera subi una imagen pero que esta alojada en internet no en mi pc-->
+     <p>
+        <strong>Probando la negrita</strong>
+        <i>Probando la cursiva</i>
+    </p>
+    <p>
+        <!--Inicion de form-->
+        <!--el form contiene los controles interactivos para interactuar con la pagina-->
+        <form action="">  <!--form tiene diferentes atributos, los mas conocidos son el action (direccion del servidor con el cual va a estar interactuando el usuario)-->
+                        <!--Y el segundo se llama method que me permite elegir de que manera voy a enviar esos datos al servidor-->
+            <input type="text" name="nombre" placeholder="Ingrese su nombre"/> <!--los input son solo de apertura-->
+            <input type="text" name="apellido" placeholder="Ingrese su apellido"/>
+            <input type="text" name="email" placeholder="Ingrese su email"/>
+                <p>
+            Desea recibir notificaciones? <input type="checkbox" name="recordar"/>
+                </p>
+            <button name="enviar">Enviar</button>
+                <p>
+            Pais:<select name="pais">
+                <option value="ar">Argentina</option>
+                <option value="pe">Perú</option>
+                <option value="bo">Bolivia</option>
+                <option value="br">Brasil</option>   
+            </select>
+
+            <input type="password" name="pass" placeholder="Ingrese password"/>
+            <input type="password" name="repass" placeholder="Re-ingrese su password"/>
+            <textarea name="acerca" cols="20" rows="10" placeholder="Escriba algo sobre usted"></textarea>
+                </p>    
+        </form> 
+        <!--Fin del form-->
+    </p>
+</body>
+</html>

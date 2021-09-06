@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Registro</title>
+</head>
+<body>
+        <h1>
+            Registro
+        </h1>
+                <form>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
+                        <br>
+                        <br>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password">
+                        <br>
+                        <br>
+                        <label for="re-password">Re-pass:</label>
+                        <input type="password" id="re-password" name="re-password">
+                        <br>
+                        <br>
+                        <br>
+                        <label for="date">Fecha de nacimiento</label>
+                        <input type="date" id="date" name="date">
+                        <br>
+                        <br>
+                        Edad: <select name="edad">
+                                        <option></option>
+                                        <option value="mayor">Mayor de 18 años</option>
+                                        <option value="menor">Menor de 18 años</option>       
+                             </select>
+                        <br>
+                        <br>
+                        Nacionalidad: <select name="nacionalidad">
+                                            <option></option>
+                                            <option value="argentina">Argentina</option>
+                                            <option value="boliviana">Boliviana</option>
+                                            <option value="peruana">Perúana</option>
+                                            <option value="uruguaya">Uruguaya</option>
+                                            <option value="paraguaya">Paraguaya</option>
+
+                                      </select>     
+                        <br>
+                        <br>
+                        Desea recibir novedades? <input type="checkbox" name="novedades">
+                        <br>
+                        <br>
+                        <input type="submit" name="Enviar">
+                </form>
+    
+</body>
+</html>
